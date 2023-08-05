@@ -446,6 +446,16 @@ public sealed class BLU_Default : BLU_Base
         //冰雪乱舞
         if (GlassDance.CanUse(out act, option)) return true;
 
+        //断罪の飛翔
+        if (WingedReprobation.CanUse(out act, option)) return true;
+
+        //死すべき定め
+        if (BeingMortal.CanUse(out act, option)) return true;
+
+        //グルグルザパーン
+        if (SeaShanty.CanUse(out act, option)) return true;
+
+
         //if (MountainBuster.ShouldUse(out act, option)) return true;
 
 
